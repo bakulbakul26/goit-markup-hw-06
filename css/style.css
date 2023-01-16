@@ -350,6 +350,7 @@ footer .join-text {
 .social-icon:hover,
 .social-icon:focus {
   background-color: var(--blue);
+  --color4:var(--white)
 }
 
 .nav-button:hover,
