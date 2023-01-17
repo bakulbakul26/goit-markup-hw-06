@@ -208,7 +208,7 @@ footer .join-text {
 }
 
 .link {
-  color: #212121;
+  color:var(--grey-heading);
   font-family: roboto;
   font-weight: 500;
   font-size: 14px;
@@ -643,7 +643,7 @@ img {
   padding: 40px;
   transform: translate(-50%, -50%) scale(1);
   transition-property: transform;
-  transition-duration: 1s;
+  transition-duration: 250ms;
   transition-timing-function: ease;
 }
 
@@ -764,6 +764,8 @@ img {
   background-color: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+
 }
 
 /* zadanie 6 */
