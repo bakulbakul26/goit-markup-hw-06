@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.min.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,14 +24,14 @@
   </head>
   <body>
     <header>
-      <nav class="container wrap flex-nav-container">
+      <nav class="flex-nav-container wrap">
         <div class="flex-nav">
           <span class="logo">Web</span><span class="logo2">Studio</span>
           <div class="link-nav">
             <div class="nav-button hoverable">
               <a class="link hoverable" href="index.html">Agencja</a>
             </div>
-            <div class="nav-button hoverable -active">
+            <div class="nav-button hoverable">
               <a class="link-active hoverable" href="portfolio.html">Portfolio</a>
             </div>
             <div class="nav-button hoverable"><a class="link hoverable" href="#">Kontakt</a></div>
@@ -59,15 +59,25 @@
     <main>
       <section class="section">
         <ul class="menu-flex container navigation-portfolio wrap">
-          <li class="list"><button class="hoverable" type="button">Wszystkie</button></li>
-          <li class="list"><button class="hoverable" type="button">Strony</button></li>
-          <li class="list"><button class="hoverable" type="button">Aplikacje</button></li>
-          <li class="list"><button class="hoverable" type="button">Dizajn</button></li>
-          <li class="list"><button class="hoverable" type="button">Marketing</button></li>
+          <li class="list">
+            <button class="main-nav__links-item--hoverable" type="button">Wszystkie</button>
+          </li>
+          <li class="list">
+            <button class="main-nav__links-item--hoverable" type="button">Strony</button>
+          </li>
+          <li class="list">
+            <button class="main-nav__links-item--hoverable" type="button">Aplikacje</button>
+          </li>
+          <li class="list">
+            <button class="main-nav__links-item--hoverable" type="button">Dizajn</button>
+          </li>
+          <li class="list">
+            <button class="main-nav__links-item--hoverable" type="button">Marketing</button>
+          </li>
         </ul>
 
         <div class="container tiles portfolio-flex wrap">
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img alt="technocrack" src="./images/technocrack.jpg" width="370" height="294" />
 
@@ -86,7 +96,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img alt="grafika new" src="./images/grafik new.jpg" width="370" height="294" />
               <div class="portfolio-foto-overlay">
@@ -103,7 +113,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img alt="restaurant" src="./images/restauracja.jpg" width="370" height="294" />
               <div class="portfolio-foto-overlay">
@@ -120,7 +130,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img src="./images/projektprime.jpg" alt="projektprime" width="370" height="294" />
               <div class="portfolio-foto-overlay">
@@ -137,7 +147,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img
                 src="./images/projektboxes.jpg"
@@ -159,7 +169,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img src="./images/borders.jpg" alt="borders" width="370" height="294" />
               <div class="portfolio-foto-overlay">
@@ -176,7 +186,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img src="./images/magazyn.jpg" alt="magazyn" width="370" height="294" />
               <div class="portfolio-foto-overlay">
@@ -193,7 +203,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img src="./images/projektlab.jpg" alt="projektlab" width="370" height="294" />
               <div class="portfolio-foto-overlay">
@@ -210,7 +220,7 @@
             </div>
           </div>
 
-          <div class="portfolio-foto hoverable" tabindex="0">
+          <div class="portfolio-foto main-nav__links-item--hoverable" tabindex="0">
             <div class="box">
               <img src="./images/growing.jpg" alt="growingbusiness" width="370" height="294" />
               <div class="portfolio-foto-overlay">
@@ -240,22 +250,22 @@
         <div class="join-us">
           <div class="join-text">DOŁĄCZ DO NAS</div>
           <div class="social-container">
-            <a href="#" class="social-icon hoverable">
+            <a href="#" class="social-icon in-footer main-nav__links-item--hoverable">
               <svg class="icon-instagram-2" width="20" height="20">
                 <use href="./images/icons.svg#icon-instagram-2"></use>
               </svg>
             </a>
-            <a href="#" class="social-icon hoverable">
+            <a href="#" class="social-icon in-footer main-nav__links-item--hoverable">
               <svg class="icon-twitter-1" width="20" height="20">
                 <use href="./images/icons.svg#icon-twitter-1"></use>
               </svg>
             </a>
-            <a href="#" class="social-icon hoverable">
+            <a href="#" class="social-icon in-footer main-nav__links-item--hoverable">
               <svg class="icon-facebook-1" width="20" height="20">
                 <use href="./images/icons.svg#icon-facebook-1"></use>
               </svg>
             </a>
-            <a href="#" class="social-icon hoverable">
+            <a href="#" class="social-icon in-footer main-nav__links-item--hoverable">
               <svg class="icon-linkedin-1" width="20" height="20">
                 <use href="./images/icons.svg#icon-linkedin-1"></use>
               </svg>
